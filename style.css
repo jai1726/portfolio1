@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: black;
+    top: 50px;
+    margin-top: 40px;
+    color: white;
+
+}
+#half{
+    color: yellow;
+}
+#first-half{
+    display: inline;
+    margin-left: 40px;
+}
+#pro-name{
+    display: inline;
+}
+#links {
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+#about{
+    margin-left: 900px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#name-pic{
+    /* margin-top: 200px; */
+    font-size: 30px;
+   
+    margin: 10px 40px 50px 250px;
+}
+#resume{
+    height:30px;
+    width: 150px;
+    margin-top: 30px;
+    background-color: white;
+    color: red;
+    border: 2px solid aqua;
+    position: absolute;
+    left:200px;
+    cursor: pointer;
+}
+#profile-pic{
+    height: 450px;
+    width: 300px;
+    margin-top: 100px;
+    margin-right: 350px;
+}
+img{
+    border-radius: 100px;
+}
+#footer{
+    position: fixed;
+    bottom: 10px;
+    
+}
+#skil{
+    height: 400px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 100px;
+    top:100px;
+}
+
+#p-heading{
+    font-size: 25px;
+    /* color: red; */
+    display: inline-block; 
+ }
+ 
+#p-skills  {
+    font-size: 15px;
+    display: inline-block;
+}
+#toolframe-heading{
+    font-size: 25px;
+    /* color: red; */
+    display: inline-block; 
+ }
+ 
+#toolframe-skills  {
+    font-size: 15px;
+    display: inline-block;
+}
+#database-heading{
+    font-size: 25px;
+    /* color: red; */
+    display: inline-block; 
+}
+#database-skills{
+    font-size: 15px;
+    display: inline-block;
+}
+#soft-heading{
+    font-size: 25px;
+    /* color: red; */
+    display: inline-block; 
+}
+#soft-skills{
+    font-size: 15px;
+    display: inline-block;
+}
+
+.outer{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 20%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .intro{
+    margin: 100px 200px 200px 200px ;
+    width: 1000px ;
+  }
+  #open-resume{
+    font-size: 25px;
+  }
